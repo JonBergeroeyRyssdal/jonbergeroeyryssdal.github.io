@@ -72,6 +72,17 @@ a:hover {
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
+.education-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.education-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
 
 
 
