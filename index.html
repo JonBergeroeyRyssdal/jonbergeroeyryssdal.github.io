@@ -1,41 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Metadata og ressurser -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jon Bergerøy Ryssdal | Portfolio</title>
+  <!-- Metadata and resources -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jon Bergerøy Ryssdal | Portfolio</title>
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      crossorigin="anonymous"
-    />
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    crossorigin="anonymous"
+  />
 
-    <!-- Egendefinert CSS -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
 
-    <!-- Ikoner -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="favicon/site.webmanifest" />
-  </head>
+  <!-- Favicon (online hosted JB icon) -->
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="https://favicon.io/favicon-generator/?t=JB&ff=Verdana&fs=70&fc=%23ffffff&b=rounded&bc=%23000000"
+  />
+</head>
+
 
   <body>
     <!-- HEADER med bakgrunnsbilde og navn -->
@@ -117,14 +106,12 @@
               with a strong focus on Node.js, Express, MySQL, Sequelize, and
               Docker. I enjoy creating efficient APIs, building scalable
               solutions, and writing clean, maintainable code. My technical
-              background is complemented by experience working independently on
-              fullstack projects as well as collaborating in team environments.
+              background is built through working independently on fullstack
+              projects.
             </p>
             <p>
               Beyond coding, I am dedicated to continuous learning and problem
-              solving. In addition to my studies, I work as a teacher, sharing
-              knowledge in mathematics, Spanish, and physical education at a
-              secondary school. In my free time, I enjoy spending time with my
+              solving. Outside of my studies, I enjoy spending time with my
               family, skiing, playing football, watching movies, and exploring
               new places.
             </p>
@@ -135,20 +122,45 @@
       <!-- EDUCATION SECTION -->
       <section id="education" class="container p-4 border-bottom">
         <h2 class="text-center pt-5">Education & CV</h2>
-        <p class="text-center">My formal education and CV:</p>
-        <div class="text-center mb-3">
-          <a
-            href="https://www.noroff.no/studier/fagskole/backend-utvikling-2-aarig"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn btn-dark"
-            >Noroff Backend Development (1/2 years completed)</a
-          >
-        </div>
-        <div class="text-center">
-          <a href="files/CV-english.pdf" download class="btn btn-dark"
-            >Download CV (PDF)</a
-          >
+        <p class="text-center mb-4">My formal education and CV:</p>
+
+        <div class="row gy-4 justify-content-center">
+          <!-- Education Card -->
+          <div class="col-6 col-md-5 col-lg-4 d-flex">
+            <a
+              href="https://www.noroff.no/studier/fagskole/backend-utvikling-2-aarig"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none w-100"
+            >
+              <div class="card border-0 shadow-sm text-center p-3 h-100">
+                <div
+                  class="card-body d-flex flex-column justify-content-center"
+                >
+                  <h5 class="card-title">Backend Development</h5>
+                  <p class="card-text mb-0">Noroff – 1 of 2 years completed</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- CV Card -->
+          <div class="col-6 col-md-5 col-lg-4 d-flex">
+            <a
+              href="files/CV-english.docx"
+              download
+              class="text-decoration-none w-100"
+            >
+              <div class="card border-0 shadow-sm text-center p-3 h-100">
+                <div
+                  class="card-body d-flex flex-column justify-content-center"
+                >
+                  <h5 class="card-title">Download CV</h5>
+                  <p class="card-text mb-0">Word Document (.docx)</p>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -157,22 +169,6 @@
         <h2 class="text-center pt-5">Languages & Frameworks</h2>
         <p class="text-center">Technologies I work with:</p>
         <div class="row justify-content-center gy-3">
-          <!-- HTML -->
-          <div class="col-3 col-md-2 col-lg-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-              alt="HTML"
-              class="img-fluid"
-            />
-          </div>
-          <!-- CSS -->
-          <div class="col-3 col-md-2 col-lg-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-              alt="CSS3"
-              class="img-fluid"
-            />
-          </div>
           <!-- JavaScript -->
           <div class="col-3 col-md-2 col-lg-1">
             <img
@@ -233,238 +229,460 @@
       </section>
 
       <!-- PROJECTS SECTION -->
-<section id="projects" class="container p-4 border-bottom">
-  <h2 class="text-center pt-5">Projects</h2>
-  <div class="row gy-4">
+      <section id="projects" class="container p-4 border-bottom">
+        <h2 class="text-center pt-5">Projects</h2>
+        <div class="row gy-4">
+          <!-- Project 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow-sm project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#modal1"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://unsplash.it/400/200?image=100"
+                  class="card-img-top"
+                  alt="Rocketman"
+                />
+                <div
+                  class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2"
+                >
+                  <h5 class="mb-0">Rocketman</h5>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- Project 1 -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm project-card" data-bs-toggle="modal" data-bs-target="#modal1">
-        <div class="position-relative">
-          <img src="https://unsplash.it/400/200?image=100" class="card-img-top" alt="Rocketman" />
-          <div class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2">
-            <h5 class="mb-0">Rocketman</h5>
+          <!-- Project 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow-sm project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#modal2"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://unsplash.it/400/200?image=200"
+                  class="card-img-top"
+                  alt="Node.js API"
+                />
+                <div
+                  class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2"
+                >
+                  <h5 class="mb-0">Node.js API</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow-sm project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#modal3"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://unsplash.it/400/200?image=300"
+                  class="card-img-top"
+                  alt="React Frontend"
+                />
+                <div
+                  class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2"
+                >
+                  <h5 class="mb-0">React Frontend</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow-sm project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#modal4"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://unsplash.it/400/200?image=400"
+                  class="card-img-top"
+                  alt="Fullstack App"
+                />
+                <div
+                  class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2"
+                >
+                  <h5 class="mb-0">Fullstack App</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow-sm project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#modal5"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://unsplash.it/400/200?image=500"
+                  class="card-img-top"
+                  alt="Admin Dashboard"
+                />
+                <div
+                  class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2"
+                >
+                  <h5 class="mb-0">Admin Dashboard</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow-sm project-card"
+              data-bs-toggle="modal"
+              data-bs-target="#modal6"
+            >
+              <div class="position-relative">
+                <img
+                  src="https://unsplash.it/400/200?image=600"
+                  class="card-img-top"
+                  alt="Portfolio Website"
+                />
+                <div
+                  class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2"
+                >
+                  <h5 class="mb-0">Portfolio Website</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MODALS -->
+      <div class="modal fade" id="modal1" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Rocketman</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="https://unsplash.it/400/200?image=100"
+                class="img-fluid mb-3"
+                alt="Rocketman"
+              />
+              <p>
+                <strong>Description:</strong> A responsive landing page for a
+                fictional space company.
+              </p>
+              <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+              <p>
+                <strong>Features:</strong> Mobile-first design, semantic markup,
+                custom animations.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <a
+                href="https://live-rocketman.com"
+                class="btn btn-dark"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                href="https://github.com/dummy-rocketman"
+                class="btn btn-dark"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Project 2 -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm project-card" data-bs-toggle="modal" data-bs-target="#modal2">
-        <div class="position-relative">
-          <img src="https://unsplash.it/400/200?image=200" class="card-img-top" alt="Node.js API" />
-          <div class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2">
-            <h5 class="mb-0">Node.js API</h5>
+      <div class="modal fade" id="modal2" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Node.js API</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="https://unsplash.it/400/200?image=200"
+                class="img-fluid mb-3"
+                alt="Node.js API"
+              />
+              <p>
+                <strong>Description:</strong> REST API backend for managing
+                users and data.
+              </p>
+              <p><strong>Technologies:</strong> Node.js, Express, MySQL</p>
+              <p>
+                <strong>Features:</strong> CRUD operations, JWT auth, error
+                handling.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <a
+                href="https://live-nodeapi.com"
+                class="btn btn-dark"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                href="https://github.com/dummy-nodeapi"
+                class="btn btn-dark"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Project 3 -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm project-card" data-bs-toggle="modal" data-bs-target="#modal3">
-        <div class="position-relative">
-          <img src="https://unsplash.it/400/200?image=300" class="card-img-top" alt="React Frontend" />
-          <div class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2">
-            <h5 class="mb-0">React Frontend</h5>
+      <div class="modal fade" id="modal3" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">React Frontend</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="https://unsplash.it/400/200?image=300"
+                class="img-fluid mb-3"
+                alt="React Frontend"
+              />
+              <p>
+                <strong>Description:</strong> Single-page app frontend for
+                displaying data from API.
+              </p>
+              <p><strong>Technologies:</strong> React, Bootstrap</p>
+              <p>
+                <strong>Features:</strong> Dynamic components, API integration,
+                responsive UI.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <a
+                href="https://live-reactfrontend.com"
+                class="btn btn-dark"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                href="https://github.com/dummy-reactfrontend"
+                class="btn btn-dark"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Project 4 -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm project-card" data-bs-toggle="modal" data-bs-target="#modal4">
-        <div class="position-relative">
-          <img src="https://unsplash.it/400/200?image=400" class="card-img-top" alt="Fullstack App" />
-          <div class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2">
-            <h5 class="mb-0">Fullstack App</h5>
+      <div class="modal fade" id="modal4" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Fullstack App</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="https://unsplash.it/400/200?image=400"
+                class="img-fluid mb-3"
+                alt="Fullstack App"
+              />
+              <p>
+                <strong>Description:</strong> Fullstack web application with
+                user management.
+              </p>
+              <p><strong>Technologies:</strong> Node.js, React, MySQL</p>
+              <p>
+                <strong>Features:</strong> Login system, CRUD features, API +
+                frontend integration.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <a
+                href="https://live-fullstack.com"
+                class="btn btn-dark"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                href="https://github.com/dummy-fullstack"
+                class="btn btn-dark"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Project 5 -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm project-card" data-bs-toggle="modal" data-bs-target="#modal5">
-        <div class="position-relative">
-          <img src="https://unsplash.it/400/200?image=500" class="card-img-top" alt="Admin Dashboard" />
-          <div class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2">
-            <h5 class="mb-0">Admin Dashboard</h5>
+      <div class="modal fade" id="modal5" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Admin Dashboard</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="https://unsplash.it/400/200?image=500"
+                class="img-fluid mb-3"
+                alt="Admin Dashboard"
+              />
+              <p>
+                <strong>Description:</strong> Dashboard for admins to manage
+                system data.
+              </p>
+              <p><strong>Technologies:</strong> Node.js, Bootstrap</p>
+              <p>
+                <strong>Features:</strong> Charts, tables, user management
+                tools.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <a
+                href="https://live-dashboard.com"
+                class="btn btn-dark"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                href="https://github.com/dummy-dashboard"
+                class="btn btn-dark"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Project 6 -->
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm project-card" data-bs-toggle="modal" data-bs-target="#modal6">
-        <div class="position-relative">
-          <img src="https://unsplash.it/400/200?image=600" class="card-img-top" alt="Portfolio Website" />
-          <div class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2">
-            <h5 class="mb-0">Portfolio Website</h5>
+      <div class="modal fade" id="modal6" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Portfolio Website</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="https://unsplash.it/400/200?image=600"
+                class="img-fluid mb-3"
+                alt="Portfolio Website"
+              />
+              <p>
+                <strong>Description:</strong> Personal portfolio website for
+                showcasing projects.
+              </p>
+              <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+              <p>
+                <strong>Features:</strong> Responsive design, clean UI, project
+                gallery.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <a
+                href="https://live-portfolio.com"
+                class="btn btn-dark"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                href="https://github.com/dummy-portfolio"
+                class="btn btn-dark"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- MODALS -->
-<div class="modal fade" id="modal1" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Rocketman</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="https://unsplash.it/400/200?image=100" class="img-fluid mb-3" alt="Rocketman" />
-        <p><strong>Description:</strong> A responsive landing page for a fictional space company.</p>
-        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-        <p><strong>Features:</strong> Mobile-first design, semantic markup, custom animations.</p>
-      </div>
-      <div class="modal-footer">
-        <a href="https://live-rocketman.com" class="btn btn-dark" target="_blank">Live</a>
-        <a href="https://github.com/dummy-rocketman" class="btn btn-dark" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal2" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Node.js API</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="https://unsplash.it/400/200?image=200" class="img-fluid mb-3" alt="Node.js API" />
-        <p><strong>Description:</strong> REST API backend for managing users and data.</p>
-        <p><strong>Technologies:</strong> Node.js, Express, MySQL</p>
-        <p><strong>Features:</strong> CRUD operations, JWT auth, error handling.</p>
-      </div>
-      <div class="modal-footer">
-        <a href="https://live-nodeapi.com" class="btn btn-dark" target="_blank">Live</a>
-        <a href="https://github.com/dummy-nodeapi" class="btn btn-dark" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal3" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">React Frontend</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="https://unsplash.it/400/200?image=300" class="img-fluid mb-3" alt="React Frontend" />
-        <p><strong>Description:</strong> Single-page app frontend for displaying data from API.</p>
-        <p><strong>Technologies:</strong> React, Bootstrap</p>
-        <p><strong>Features:</strong> Dynamic components, API integration, responsive UI.</p>
-      </div>
-      <div class="modal-footer">
-        <a href="https://live-reactfrontend.com" class="btn btn-dark" target="_blank">Live</a>
-        <a href="https://github.com/dummy-reactfrontend" class="btn btn-dark" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal4" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Fullstack App</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="https://unsplash.it/400/200?image=400" class="img-fluid mb-3" alt="Fullstack App" />
-        <p><strong>Description:</strong> Fullstack web application with user management.</p>
-        <p><strong>Technologies:</strong> Node.js, React, MySQL</p>
-        <p><strong>Features:</strong> Login system, CRUD features, API + frontend integration.</p>
-      </div>
-      <div class="modal-footer">
-        <a href="https://live-fullstack.com" class="btn btn-dark" target="_blank">Live</a>
-        <a href="https://github.com/dummy-fullstack" class="btn btn-dark" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal5" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Admin Dashboard</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="https://unsplash.it/400/200?image=500" class="img-fluid mb-3" alt="Admin Dashboard" />
-        <p><strong>Description:</strong> Dashboard for admins to manage system data.</p>
-        <p><strong>Technologies:</strong> Node.js, Bootstrap</p>
-        <p><strong>Features:</strong> Charts, tables, user management tools.</p>
-      </div>
-      <div class="modal-footer">
-        <a href="https://live-dashboard.com" class="btn btn-dark" target="_blank">Live</a>
-        <a href="https://github.com/dummy-dashboard" class="btn btn-dark" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal6" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Portfolio Website</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="https://unsplash.it/400/200?image=600" class="img-fluid mb-3" alt="Portfolio Website" />
-        <p><strong>Description:</strong> Personal portfolio website for showcasing projects.</p>
-        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-        <p><strong>Features:</strong> Responsive design, clean UI, project gallery.</p>
-      </div>
-      <div class="modal-footer">
-        <a href="https://live-portfolio.com" class="btn btn-dark" target="_blank">Live</a>
-        <a href="https://github.com/dummy-portfolio" class="btn btn-dark" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
-
 
       <!-- CONTACT SECTION -->
       <section id="contact" class="container p-4">
         <h2 class="text-center pt-5">Contact</h2>
+        <div class="row gy-4 justify-content-center">
+          <!-- Email card -->
+          <div class="col-6 col-md-4 col-lg-3 d-flex">
+            <a href="mailto:jon@ryssdal.net" class="text-decoration-none w-100">
+              <div
+                class="card border-0 shadow-sm contact-card text-center p-3 h-100"
+              >
+                <div
+                  class="card-body d-flex flex-column justify-content-center"
+                >
+                  <h5 class="card-title">Email</h5>
+                  <p class="card-text mb-0">jon@ryssdal.net</p>
+                </div>
+              </div>
+            </a>
+          </div>
 
-        <!-- Email button -->
-        <div class="text-center mb-4">
-          <a href="mailto:jon@ryssdal.net" class="btn btn-lg btn-dark">
-            jon@ryssdal.net
-          </a>
-        </div>
-
-        <!-- GitHub icon -->
-        <div class="text-center">
-          <a
-            href="https://github.com/JonBergeroeyRyssdal"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-              alt="GitHub"
-              class="img-fluid bg-white p-1 rounded"
-              style="max-width: 60px"
-            />
-          </a>
+          <!-- GitHub card -->
+          <!-- GitHub card -->
+          <div class="col-6 col-md-4 col-lg-3 d-flex">
+            <a
+              href="https://github.com/JonBergeroeyRyssdal"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none w-100"
+            >
+              <div
+                class="card border-0 shadow-sm contact-card text-center p-3 h-100"
+              >
+                <div
+                  class="card-body d-flex flex-column justify-content-center align-items-center"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    alt="GitHub"
+                    class="img-fluid bg-white p-1 rounded mb-2"
+                    style="max-width: 60px"
+                  />
+                  <h5 class="card-title mb-0">GitHub</h5>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </section>
     </main>
