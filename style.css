@@ -82,6 +82,20 @@ a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.project-img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.modal-img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+
 
 
 
