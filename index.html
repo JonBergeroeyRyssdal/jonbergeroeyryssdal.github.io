@@ -16,11 +16,24 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
-<link rel="manifest" href="favicon/site.webmanifest" />
-
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
   </head>
 
   <body>
@@ -89,29 +102,39 @@
       <!-- ABOUT SECTION -->
       <section id="about" class="container p-4 border-bottom">
         <h2 class="text-center pt-5">About</h2>
-        <div class="row gx-5">
-          <div class="col-12 col-md-4">
-            <img
-              src="images/Jon.JPEG"
-              alt="Jon Bergerøy Ryssdal portrait"
-              class="img-fluid rounded"
-            />
+        <div class="row gy-4 justify-content-center mt-4">
+          <!-- Image Card -->
+          <div class="col-12 col-md-5 d-flex">
+            <div class="card border-0 shadow-sm p-3 h-100 w-100 text-center">
+              <img
+                src="images/Jon.JPEG"
+                alt="Jon Bergerøy Ryssdal portrait"
+                class="img-fluid rounded"
+              />
+            </div>
           </div>
-          <div class="col-12 col-md-8">
-            <p>
-              I am a passionate web developer and backend student at Noroff,
-              with a strong focus on Node.js, Express, MySQL, Sequelize, and
-              Docker. I enjoy creating efficient APIs, building scalable
-              solutions, and writing clean, maintainable code. My technical
-              background is built through working independently on fullstack
-              projects.
-            </p>
-            <p>
-              Beyond coding, I am dedicated to continuous learning and problem
-              solving. Outside of my studies, I enjoy spending time with my
-              family, skiing, playing football, watching movies, and exploring
-              new places.
-            </p>
+
+          <!-- Text Card -->
+          <div class="col-12 col-md-7 d-flex">
+            <div class="card border-0 shadow-sm p-4 h-100 w-100">
+              <div class="card-body d-flex flex-column justify-content-center">
+                <p>
+                  I’m a dedicated web developer and backend student at Noroff,
+                  specializing in building robust systems with Node.js, Express,
+                  MySQL, Sequelize, and Docker.
+                </p>
+                <p>
+                  I thrive when creating structured, scalable APIs and working
+                  with relational databases. My projects reflect a clear focus
+                  on clean architecture and efficiency.
+                </p>
+                <p>
+                  Outside of tech, I enjoy skiing, playing football, watching
+                  well-crafted films, and traveling with my family — always
+                  curious and ready to learn something new.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -166,69 +189,105 @@
       </section>
 
       <!-- STACK SECTION -->
-      <section id="stack" class="container p-4 border-bottom">
-        <h2 class="text-center pt-5">Languages & Frameworks</h2>
-        <p class="text-center">Technologies I work with:</p>
-        <div class="row justify-content-center gy-3">
-          <!-- JavaScript -->
-          <div class="col-3 col-md-2 col-lg-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-              alt="JavaScript"
-              class="img-fluid"
-            />
-          </div>
-          <!-- Node.js -->
-          <div class="col-3 col-md-2 col-lg-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-              alt="Node.js"
-              class="img-fluid"
-            />
-          </div>
-          <!-- Express -->
-          <div class="col-3 col-md-2 col-lg-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-              alt="Express"
-              class="img-fluid bg-white p-1 rounded"
-            />
-          </div>
-          <!-- MySQL -->
-          <div class="col-3 col-md-2 col-lg-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-              alt="MySQL"
-              class="img-fluid"
-            />
-          </div>
-          <!-- React -->
-          <div class="col-3 col-md-2 col-lg-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-              alt="React"
-              class="img-fluid"
-            />
-          </div>
-          <!-- Git -->
-          <div class="col-3 col-md-2 col-lg-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-              alt="Git"
-              class="img-fluid"
-            />
-          </div>
-          <!-- GitHub -->
-          <div class="col-3 col-md-2 col-lg-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-              alt="GitHub"
-              class="img-fluid bg-white p-1 rounded"
-            />
-          </div>
-        </div>
-      </section>
+      <!-- STACK SECTION -->
+<section id="stack" class="container p-4 border-bottom">
+  <h2 class="text-center pt-5">Languages & Frameworks</h2>
+  <p class="text-center">Technologies I work with:</p>
+  <div class="row row-cols-2 row-cols-md-4 g-4 justify-content-center mt-4">
+    
+    <!-- JavaScript -->
+    <div class="col">
+      <div class="card border-0 shadow-sm text-center p-3 h-100">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+             alt="JavaScript"
+             class="img-fluid mb-2"
+             style="max-height: 50px;" />
+        <h6 class="mb-0">JavaScript</h6>
+      </div>
+    </div>
 
+    <!-- Node.js -->
+    <div class="col">
+      <div class="card border-0 shadow-sm text-center p-3 h-100">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+             alt="Node.js"
+             class="img-fluid mb-2"
+             style="max-height: 50px;" />
+        <h6 class="mb-0">Node.js</h6>
+      </div>
+    </div>
+
+    <!-- Express -->
+    <div class="col">
+      <div class="card border-0 shadow-sm text-center p-3 h-100">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+             alt="Express"
+             class="img-fluid bg-white p-1 mb-2 rounded"
+             style="max-height: 50px;" />
+        <h6 class="mb-0">Express</h6>
+      </div>
+    </div>
+
+    <!-- MySQL -->
+    <div class="col">
+      <div class="card border-0 shadow-sm text-center p-3 h-100">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+             alt="MySQL"
+             class="img-fluid mb-2"
+             style="max-height: 50px;" />
+        <h6 class="mb-0">MySQL</h6>
+      </div>
+    </div>
+
+    <!-- React -->
+    <div class="col">
+      <div class="card border-0 shadow-sm text-center p-3 h-100">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+             alt="React"
+             class="img-fluid mb-2"
+             style="max-height: 50px;" />
+        <h6 class="mb-0">React</h6>
+      </div>
+    </div>
+
+    <!-- Git -->
+    <div class="col">
+      <div class="card border-0 shadow-sm text-center p-3 h-100">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+             alt="Git"
+             class="img-fluid mb-2"
+             style="max-height: 50px;" />
+        <h6 class="mb-0">Git</h6>
+      </div>
+    </div>
+
+    <!-- GitHub -->
+    <div class="col">
+      <div class="card border-0 shadow-sm text-center p-3 h-100">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+             alt="GitHub"
+             class="img-fluid bg-white p-1 mb-2 rounded"
+             style="max-height: 50px;" />
+        <h6 class="mb-0">GitHub</h6>
+      </div>
+    </div>
+
+    <!-- Docker -->
+    <div class="col">
+      <div class="card border-0 shadow-sm text-center p-3 h-100">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+             alt="Docker"
+             class="img-fluid mb-2"
+             style="max-height: 50px;" />
+        <h6 class="mb-0">Docker</h6>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+      <!--Projects-->
       <section id="projects" class="container p-4 border-bottom">
         <h2 class="text-center pt-5">Projects</h2>
         <div class="row gy-4">
@@ -337,28 +396,6 @@
                   class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2"
                 >
                   <h5 class="mb-0">Admin Dashboard</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 6: Portfolio Website -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div
-              class="card border-0 shadow-sm project-card h-100 d-flex flex-column"
-              data-bs-toggle="modal"
-              data-bs-target="#modal6"
-            >
-              <div class="position-relative">
-                <img
-                  src="https://unsplash.it/400/200?image=600"
-                  class="card-img-top project-img"
-                  alt="Portfolio Website"
-                />
-                <div
-                  class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2"
-                >
-                  <h5 class="mb-0">Portfolio Website</h5>
                 </div>
               </div>
             </div>
@@ -585,51 +622,6 @@
               >
               <a
                 href="https://github.com/dummy-dashboard"
-                class="btn btn-dark"
-                target="_blank"
-                >GitHub</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="modal fade" id="modal6" tabindex="-1">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Portfolio Website</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <img
-                src="https://unsplash.it/400/200?image=600"
-                class="modal-img mb-3"
-                alt="Portfolio Website"
-              />
-              <p>
-                <strong>Description:</strong> Personal portfolio website for
-                showcasing projects.
-              </p>
-              <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-              <p>
-                <strong>Features:</strong> Responsive design, clean UI, project
-                gallery.
-              </p>
-            </div>
-            <div class="modal-footer">
-              <a
-                href="https://live-portfolio.com"
-                class="btn btn-dark"
-                target="_blank"
-                >Live</a
-              >
-              <a
-                href="https://github.com/dummy-portfolio"
                 class="btn btn-dark"
                 target="_blank"
                 >GitHub</a
