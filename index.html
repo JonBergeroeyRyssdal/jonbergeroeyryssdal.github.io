@@ -34,6 +34,10 @@
       href="favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="favicon/site.webmanifest" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -53,7 +57,9 @@
         class="position-absolute top-50 start-50 translate-middle text-center text-dark"
       >
         <h1 class="fw-bold display-5">Jon Bergerøy Ryssdal</h1>
-        <h2 class="fw-light">Web Developer & Backend Student</h2>
+        <h2 class="fw-light" id="typed-text">
+          Web Developer & Backend Student
+        </h2>
       </div>
     </header>
 
@@ -100,12 +106,20 @@
 
     <main>
       <!-- ABOUT SECTION -->
-      <section id="about" class="container p-4 border-bottom">
+      <section
+        data-aos="fade-up"
+        id="about"
+        class="container p-4 border-bottom"
+      >
         <h2 class="text-center pt-5">About</h2>
         <div class="row gy-4 justify-content-center mt-4">
           <!-- Image Card -->
           <div class="col-12 col-md-5 d-flex">
-            <div class="card border-0 shadow-sm p-3 h-100 w-100 text-center">
+            <div
+              class="card border-0 shadow-sm p-3 h-100 w-100 text-center"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
               <img
                 src="images/Jon.JPEG"
                 alt="Jon Bergerøy Ryssdal portrait"
@@ -116,19 +130,23 @@
 
           <!-- Text Card -->
           <div class="col-12 col-md-7 d-flex">
-            <div class="card border-0 shadow-sm p-4 h-100 w-100">
+            <div
+              data-aos="fade-up-right"
+              data-aos-delay="100"
+              class="card border-0 shadow-sm p-4 h-100 w-100"
+            >
               <div class="card-body d-flex flex-column justify-content-center">
-                <p>
+                <p data-aos="fade-up" data-aos-delay="200">
                   I’m a dedicated web developer and backend student at Noroff,
                   specializing in building robust systems with Node.js, Express,
                   MySQL, Sequelize, and Docker.
                 </p>
-                <p>
+                <p data-aos="fade-up" data-aos-delay="400">
                   I thrive when creating structured, scalable APIs and working
                   with relational databases. My projects reflect a clear focus
                   on clean architecture and efficiency.
                 </p>
-                <p>
+                <p data-aos="fade-up" data-aos-delay="600">
                   Outside of tech, I enjoy skiing, playing football, watching
                   well-crafted films, and traveling with my family — always
                   curious and ready to learn something new.
@@ -140,7 +158,11 @@
       </section>
 
       <!-- EDUCATION SECTION -->
-      <section id="education" class="container p-4 border-bottom">
+      <section
+        data-aos="fade-up"
+        id="education"
+        class="container p-4 border-bottom"
+      >
         <h2 class="text-center pt-5">Education & CV</h2>
         <p class="text-center mb-4">My formal education and CV:</p>
 
@@ -155,6 +177,8 @@
             >
               <div
                 class="card border-0 shadow-sm text-center p-3 h-100 education-card"
+                data-aos="zoom-in"
+                data-aos-delay="100"
               >
                 <div
                   class="card-body d-flex flex-column justify-content-center"
@@ -175,6 +199,8 @@
             >
               <div
                 class="card border-0 shadow-sm text-center p-3 h-100 education-card"
+                data-aos="zoom-in"
+                data-aos-delay="200"
               >
                 <div
                   class="card-body d-flex flex-column justify-content-center"
@@ -189,7 +215,11 @@
       </section>
 
       <!-- STACK SECTION -->
-      <section id="stack" class="container p-4 border-bottom">
+      <section
+        data-aos="fade-up"
+        id="stack"
+        class="container p-4 border-bottom"
+      >
         <h2 class="text-center pt-5">Languages & Frameworks</h2>
         <p class="text-center">Technologies I work with:</p>
         <div
@@ -197,7 +227,11 @@
         >
           <!-- JavaScript -->
           <div class="col">
-            <div class="card border-0 shadow-sm text-center p-3 h-100">
+            <div
+              class="card border-0 shadow-sm text-center p-3 h-100"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                 alt="JavaScript"
@@ -210,7 +244,11 @@
 
           <!-- Node.js -->
           <div class="col">
-            <div class="card border-0 shadow-sm text-center p-3 h-100">
+            <div
+              class="card border-0 shadow-sm text-center p-3 h-100"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                 alt="Node.js"
@@ -223,7 +261,11 @@
 
           <!-- Express -->
           <div class="col">
-            <div class="card border-0 shadow-sm text-center p-3 h-100">
+            <div
+              class="card border-0 shadow-sm text-center p-3 h-100"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
                 alt="Express"
@@ -236,7 +278,11 @@
 
           <!-- MySQL -->
           <div class="col">
-            <div class="card border-0 shadow-sm text-center p-3 h-100">
+            <div
+              class="card border-0 shadow-sm text-center p-3 h-100"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
                 alt="MySQL"
@@ -249,7 +295,11 @@
 
           <!-- React -->
           <div class="col">
-            <div class="card border-0 shadow-sm text-center p-3 h-100">
+            <div
+              class="card border-0 shadow-sm text-center p-3 h-100"
+              data-aos="zoom-in"
+              data-aos-delay="500"
+            >
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                 alt="React"
@@ -262,7 +312,11 @@
 
           <!-- Git -->
           <div class="col">
-            <div class="card border-0 shadow-sm text-center p-3 h-100">
+            <div
+              class="card border-0 shadow-sm text-center p-3 h-100"
+              data-aos="zoom-in"
+              data-aos-delay="600"
+            >
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
                 alt="Git"
@@ -275,7 +329,11 @@
 
           <!-- GitHub -->
           <div class="col">
-            <div class="card border-0 shadow-sm text-center p-3 h-100">
+            <div
+              class="card border-0 shadow-sm text-center p-3 h-100"
+              data-aos="zoom-in"
+              data-aos-delay="700"
+            >
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                 alt="GitHub"
@@ -288,7 +346,11 @@
 
           <!-- Docker -->
           <div class="col">
-            <div class="card border-0 shadow-sm text-center p-3 h-100">
+            <div
+              class="card border-0 shadow-sm text-center p-3 h-100"
+              data-aos="zoom-in"
+              data-aos-delay="800"
+            >
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
                 alt="Docker"
@@ -302,13 +364,19 @@
       </section>
 
       <!--Projects-->
-      <section id="projects" class="container p-4 border-bottom">
+      <section
+        data-aos="fade-up"
+        id="projects"
+        class="container p-4 border-bottom"
+      >
         <h2 class="text-center pt-5">Projects</h2>
         <div class="row gy-4">
           <!-- Project 1: E-commerce -->
           <div class="col-12 col-md-6 col-lg-4">
             <div
               class="card border-0 shadow-sm project-card h-100 d-flex flex-column"
+              data-aos="zoom-in"
+              data-aos-delay="100"
               data-bs-toggle="modal"
               data-bs-target="#modal1"
             >
@@ -331,6 +399,8 @@
           <div class="col-12 col-md-6 col-lg-4">
             <div
               class="card border-0 shadow-sm project-card h-100 d-flex flex-column"
+              data-aos="zoom-in"
+              data-aos-delay="200"
               data-bs-toggle="modal"
               data-bs-target="#modal2"
             >
@@ -340,7 +410,6 @@
                   class="card-img-top project-img"
                   alt="Reception Management Dashboard"
                 />
-
                 <div
                   class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2"
                 >
@@ -354,6 +423,8 @@
           <div class="col-12 col-md-6 col-lg-4">
             <div
               class="card border-0 shadow-sm project-card h-100 d-flex flex-column"
+              data-aos="zoom-in"
+              data-aos-delay="300"
               data-bs-toggle="modal"
               data-bs-target="#modal3"
             >
@@ -376,6 +447,8 @@
           <div class="col-12 col-md-6 col-lg-4">
             <div
               class="card border-0 shadow-sm project-card h-100 d-flex flex-column"
+              data-aos="zoom-in"
+              data-aos-delay="400"
               data-bs-toggle="modal"
               data-bs-target="#modal4"
             >
@@ -398,6 +471,8 @@
           <div class="col-12 col-md-6 col-lg-4">
             <div
               class="card border-0 shadow-sm project-card h-100 d-flex flex-column"
+              data-aos="zoom-in"
+              data-aos-delay="500"
               data-bs-toggle="modal"
               data-bs-target="#modal5"
             >
@@ -653,7 +728,7 @@
       </div>
 
       <!-- CONTACT SECTION -->
-      <section id="contact" class="container p-4">
+      <section data-aos="fade-up" id="contact" class="container p-4">
         <h2 class="text-center pt-5">Contact</h2>
         <div class="row gy-4 justify-content-center">
           <!-- Email card -->
@@ -661,6 +736,8 @@
             <a href="mailto:jon@ryssdal.net" class="text-decoration-none w-100">
               <div
                 class="card border-0 shadow-sm contact-card text-center p-3 h-100"
+                data-aos="zoom-in"
+                data-aos-delay="100"
               >
                 <div
                   class="card-body d-flex flex-column justify-content-center"
@@ -673,7 +750,6 @@
           </div>
 
           <!-- GitHub card -->
-          <!-- GitHub card -->
           <div class="col-6 col-md-4 col-lg-3 d-flex">
             <a
               href="https://github.com/JonBergeroeyRyssdal"
@@ -683,6 +759,8 @@
             >
               <div
                 class="card border-0 shadow-sm contact-card text-center p-3 h-100"
+                data-aos="zoom-in"
+                data-aos-delay="200"
               >
                 <div
                   class="card-body d-flex flex-column justify-content-center align-items-center"
@@ -714,5 +792,40 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      const phrases = ["Web Developer", "Backend Student", "Tech Enthusiast"];
+      let i = 0,
+        j = 0,
+        current = [],
+        isDeleting = false;
+
+      function loop() {
+        document.getElementById("typed-text").innerHTML = current.join("");
+
+        if (!isDeleting && j < phrases[i].length) {
+          current.push(phrases[i][j++]);
+        } else if (isDeleting && j > 0) {
+          current.pop();
+          j--;
+        }
+
+        if (j === phrases[i].length && !isDeleting) {
+          isDeleting = true;
+          setTimeout(loop, 1000);
+          return;
+        } else if (j === 0 && isDeleting) {
+          isDeleting = false;
+          i = (i + 1) % phrases.length;
+        }
+
+        setTimeout(loop, isDeleting ? 50 : 100);
+      }
+
+      loop();
+    </script>
   </body>
 </html>

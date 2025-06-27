@@ -20,8 +20,15 @@
 }
 
 /* Card shadow on hover (optional, consistent with Bootstrap shadow-sm) */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  will-change: transform;
+}
+
 .card:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  transform: scale(1.02) !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12),
+              0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
 /* Links clean */
@@ -96,6 +103,11 @@ a:hover {
   object-fit: cover;
   width: 100%;
 }
+
+
+
+
+
 
 
 
