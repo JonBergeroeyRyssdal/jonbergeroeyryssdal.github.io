@@ -106,6 +106,31 @@ a:hover {
 
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+.modal-img:hover {
+  filter: brightness(1.05);
+  transition: filter 0.3s ease;
+}
+
+h2, h5 {
+  letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.card {
+  min-width: 0;
+}
+
+
+
+
+
 
 
 
