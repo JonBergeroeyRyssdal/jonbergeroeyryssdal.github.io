@@ -38,6 +38,7 @@
       href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
       rel="stylesheet"
     />
+    l
   </head>
 
   <body>
@@ -796,36 +797,8 @@
     <script>
       AOS.init();
     </script>
-    <script>
-      const phrases = ["Web Developer", "Backend Student", "Tech Enthusiast"];
-      let i = 0,
-        j = 0,
-        current = [],
-        isDeleting = false;
-
-      function loop() {
-        document.getElementById("typed-text").innerHTML = current.join("");
-
-        if (!isDeleting && j < phrases[i].length) {
-          current.push(phrases[i][j++]);
-        } else if (isDeleting && j > 0) {
-          current.pop();
-          j--;
-        }
-
-        if (j === phrases[i].length && !isDeleting) {
-          isDeleting = true;
-          setTimeout(loop, 1000);
-          return;
-        } else if (j === 0 && isDeleting) {
-          isDeleting = false;
-          i = (i + 1) % phrases.length;
-        }
-
-        setTimeout(loop, isDeleting ? 50 : 100);
-      }
-
-      loop();
+    <script src="script.js">
+      
     </script>
   </body>
 </html>
