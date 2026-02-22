@@ -56,19 +56,10 @@ It highlights selected projects and demonstrates my ability to build responsive 
 
 ---
 
-## 🔮 Future Improvements
-
-- Backend-powered contact form
-- Dark mode
-- Improved accessibility (ARIA & Lighthouse optimization)
-- Deployment with custom domain
-
----
 
 ## 📬 Contact
 
 GitHub: https://github.com/jonbergeroeyryssdal  
-LinkedIn: (add your LinkedIn link here)  
 
 ---
 
