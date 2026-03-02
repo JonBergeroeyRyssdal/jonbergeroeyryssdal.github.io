@@ -4,7 +4,17 @@
   background-image: url("images/desk.png");
   background-size: cover;
   background-position: center;
+  filter: grayscale(100%);
 }
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+
 
 #typed-text {
   min-height: 1.5em;
