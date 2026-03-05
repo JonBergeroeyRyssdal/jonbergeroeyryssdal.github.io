@@ -451,6 +451,30 @@
               </div>
             </div>
           </div>
+
+          <!-- Project 3: Waiting Room -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card border-0 shadow-sm project-card h-100 d-flex flex-column"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+              data-bs-toggle="modal"
+              data-bs-target="#modal3"
+            >
+              <div class="position-relative">
+                <img
+                  src="images/waiting_room.png"
+                  class="card-img-top project-img"
+                  alt="Reception Management Dashboard"
+                />
+                <div
+                  class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 w-100 text-white p-2"
+                >
+                  <h5 class="mb-0">Waiting Room</h5>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -556,6 +580,112 @@
                 class="btn btn-dark"
                 target="_blank"
                 >Live</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 3: JS Waiting Room (Microservices) -->
+      <div class="modal fade" id="modal3" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">JS Waiting Room – Microservices Demo</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+
+            <div class="modal-body">
+              <img
+                src="images/waiting_room.png"
+                class="modal-img mb-3"
+                alt="JS Waiting Room"
+              />
+
+              <p>
+                <strong>Description:</strong> A microservices-based “waiting
+                room” system. The solution consists of separate services
+                (Patients, Receptionist, and Server) behind a Gateway that
+                routes requests to the correct service.
+              </p>
+
+              <p>
+                <strong>Technologies:</strong> Node.js, Express, JavaScript,
+                REST APIs
+              </p>
+
+              <p>
+                <strong>Features:</strong> API gateway routing, service
+                separation, environment-based service URLs, simple health checks
+                and endpoints per service.
+              </p>
+
+              <hr />
+
+              <p class="mb-2">
+                <strong>Note (Render free tier):</strong> Services may “sleep”
+                when inactive. If you get errors at first, open the wake-up
+                links below, then refresh the Gateway demo.
+              </p>
+
+              <ul class="mb-0">
+                <li>
+                  <strong>Wake Gateway:</strong>
+                  <a
+                    href="https://js-waiting-room.onrender.com/ping"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >/ping</a
+                  >
+                </li>
+                <li>
+                  <strong>Wake Patients:</strong>
+                  <a
+                    href="https://patient-xw8x.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >patient service</a
+                  >
+                </li>
+                <li>
+                  <strong>Wake Receptionist:</strong>
+                  <a
+                    href="https://receptionist-c1sm.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >receptionist service</a
+                  >
+                </li>
+                <li>
+                  <strong>Wake Server:</strong>
+                  <a
+                    href="https://server-3khr.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >server service</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="modal-footer">
+              <a
+                href="https://github.com/JonBergeroeyRyssdal/JS_Waiting_Room"
+                class="btn btn-dark"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+              <a
+                href="https://js-waiting-room.onrender.com/"
+                class="btn btn-dark"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live (Gateway)</a
               >
             </div>
           </div>
