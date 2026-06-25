@@ -5,11 +5,13 @@ import ProjectPage from "./pages/ProjectPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
 import ScrollToHash from "./components/utils/ScrollToHash";
+import ScrollToTop from "./components/layout/ScrollToTop";
 
 function App() {
   return (
     <>
       <ScrollToHash />
+      <ScrollToTop />
 
       <Routes>
         <Route path="/" element={<HomePage />} />
