@@ -20,7 +20,6 @@ body {
 .hero {
   position: relative;
   min-height: 100vh;
-  background-image: url("images/desk_2.png");
   background-size: cover;
   background-position: center;
   overflow: hidden;
