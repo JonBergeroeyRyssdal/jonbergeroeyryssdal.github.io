@@ -1,66 +1,16 @@
-# Portfolio – Jon Bergerøy Ryssdal
+# React + Vite
 
-This is my personal developer portfolio built with HTML, CSS, JavaScript and Bootstrap 5.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The purpose of this project is to present my development skills, projects and technical background in a clean and professional way for potential employers.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🚀 Live Demo
+## React Compiler
 
-Live version:  
-https://jonbergeroeyryssdal.github.io/
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## 🛠 Technologies Used
-
-- HTML5 (semantic structure)
-- CSS3
-- JavaScript (Vanilla JS)
-- Bootstrap 5
-- Responsive Design
-- Git & GitHub
-
----
-
-## 📌 Features
-
-- Fully responsive layout for all screen sizes
-- Hero section with animated text
-- Project showcase section
-- Clean and minimal UI
-- Organized file structure
-- Optimized images
-
----
-
-## 📂 Project Structure
-
-
-/index.html
-/css/
-/js/
-/images/
-
-
-The project is structured for clarity and scalability.
-
----
-
-## 🧠 Purpose of the Project
-
-This portfolio serves as a professional presentation of my skills as a web development student at Noroff.
-
-It highlights selected projects and demonstrates my ability to build responsive and structured frontend applications using modern web technologies.
-
----
-
-
-## 📬 Contact
-
-GitHub: https://github.com/jonbergeroeyryssdal  
-
----
-
-© 2026 Jon Bergerøy Ryssdal
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
