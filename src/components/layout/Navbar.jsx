@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav className="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           Jon Bergerøy Ryssdal
-        </a>
+        </Link>
 
         <button
           className="navbar-toggler"
@@ -24,33 +26,33 @@ function Navbar() {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" href="#about">
+              <Link className="nav-link" to="/#about">
                 About
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#education">
+              <Link className="nav-link" to="/#education">
                 Education
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#stack">
+              <Link className="nav-link" to="/#stack">
                 Stack
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#projects">
+              <Link className="nav-link" to="/#projects">
                 Projects
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#contact">
+              <Link className="nav-link" to="/#contact">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
