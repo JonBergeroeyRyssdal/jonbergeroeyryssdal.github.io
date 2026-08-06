@@ -5,12 +5,17 @@ import Footer from "../components/layout/Footer";
 import Section from "../components/layout/Section";
 import Card from "../components/layout/Card";
 
+import NotFoundPage from "./NotFoundPage";
 import projects from "../data/projects";
 
 function ProjectPage() {
   const { slug } = useParams();
 
   const project = projects.find((p) => p.slug === slug);
+
+  if (!project) {
+    return <NotFoundPage />;
+  }
 
   return (
     <>
@@ -34,7 +39,6 @@ function ProjectPage() {
         <div className="col-12 col-lg-6 d-flex">
           <Card aos="fade-up" delay="150">
             <h3 className="h4 mb-3">Overview</h3>
-
             <p className="mb-0">{project.description}</p>
           </Card>
         </div>
