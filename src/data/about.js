@@ -6,7 +6,7 @@ const about = {
 
     "I enjoy taking projects from idea to deployment, whether that means designing databases, building APIs, or creating maintainable backend solutions. I'm always looking for opportunities to learn new technologies and improve as a developer.",
 
-    "Outside of coding, you'll usually find me running, skiing, traveling, or spending time with my family.",
+    "OOutside of coding, you'll usually find me running, skiing, traveling, or spending time with my family.",
   ],
 };
 
