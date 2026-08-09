@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 
-import Navbar from "../components/layout/Navbar";
+import ProjectNavbar from "../components/layout/ProjectNavbar";
 import Footer from "../components/layout/Footer";
 import TechCard from "../components/ui/TechCard";
 
@@ -32,7 +32,7 @@ function ProjectPage() {
 
   return (
     <>
-      <Navbar />
+      <ProjectNavbar />
       <main className="container py-5">
         <div className="mb-5">
           <h1 className="mb-3">{project.title}</h1>

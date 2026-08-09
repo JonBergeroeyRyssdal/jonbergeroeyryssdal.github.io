@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           Jon Bergerøy Ryssdal
         </a>
 
