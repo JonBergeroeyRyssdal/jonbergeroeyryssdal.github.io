@@ -1,6 +1,7 @@
 import ecommerceImg from "../assets/images/E-commerce.png";
 import dashboardImg from "../assets/images/Admin_dashboard.png";
 import waitingRoomImg from "../assets/images/Waiting_room.png";
+import doctorsAppointmentImg from "../assets/images/Doctors_appointment.png";
 
 const projects = [
   {
@@ -104,6 +105,50 @@ const projects = [
     github: "https://github.com/JonBergeroeyRyssdal/JS_Waiting_Room",
 
     frontend: "https://js-waiting-room.onrender.com/",
+  },
+
+  {
+    slug: "doctors-appointment-booking",
+    title: "Doctors Appointment Booking",
+    image: doctorsAppointmentImg,
+    alt: "Doctors Appointment Booking Project",
+    delay: 400,
+
+    description:
+      "Full-stack appointment booking system where guests and registered patients can book appointments with doctors, with an administrative dashboard for managing clinics, doctors, patients and appointments.",
+
+    technologies: [
+      "C#",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "MySQL",
+      "React",
+      "JWT Authentication",
+      "REST API",
+    ],
+
+    features: [
+      "Guest and patient appointment booking",
+      "JWT authentication",
+      "Doctor availability and available time slots",
+      "Administrative dashboard",
+      "Clinic, doctor and speciality management",
+      "Appointment validation and conflict prevention",
+    ],
+
+    setupLinks: [
+      {
+        label: "Backend API",
+        url: "https://doctors-appointment-booking-1.onrender.com",
+      },
+    ],
+
+    github:
+      "https://github.com/JonBergeroeyRyssdal/Doctors-Appointment-Booking",
+
+    backend: "https://doctors-appointment-booking-1.onrender.com/doc",
+
+    frontend: "https://doctors-appointment-booking-frontend.onrender.com/",
   },
 ];
 
