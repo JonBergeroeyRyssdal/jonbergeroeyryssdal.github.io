@@ -25,7 +25,7 @@ function Hero() {
           </a>
 
           <a
-            href="/files/CV-Jon-Bergeroy-Ryssdal.pdf"
+            href="/files/CV 2026 English.pdf"
             download
             className="btn btn-outline-light"
           >
