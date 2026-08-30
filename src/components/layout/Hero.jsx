@@ -14,9 +14,9 @@ function Hero() {
         <h2 className="fw-light mb-4">Backend Developer</h2>
 
         <p className="lead mx-auto mb-4" style={{ maxWidth: "700px" }}>
-          Backend-focused web developer specializing in ASP.NET Core, C#, SQL
-          and REST APIs. Passionate about building reliable and maintainable
-          systems.
+          Backend-focused web developer building full-stack applications and
+          REST APIs using C#, ASP.NET Core, JavaScript, TypeScript, Node.js and
+          SQL.
         </p>
 
         <div className="d-flex justify-content-center gap-3 flex-wrap">
