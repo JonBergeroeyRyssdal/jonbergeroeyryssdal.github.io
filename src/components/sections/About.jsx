@@ -1,4 +1,4 @@
-import portrett from "../../assets/images/Portrett.png";
+import portrett from "../../assets/images/Portrett.webp";
 import about from "../../data/about";
 
 import Section from "../layout/Section";
@@ -11,6 +11,7 @@ function About() {
         <Card className="text-center p-3">
           <img
             src={portrett}
+            loading="lazy"
             alt={about.imageAlt}
             className="img-fluid rounded"
           />

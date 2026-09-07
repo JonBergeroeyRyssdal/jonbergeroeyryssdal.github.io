@@ -9,11 +9,9 @@ function Projects() {
       title="Projects"
       subtitle="A showcase of some of my projects."
     >
-      <div className="row gy-4">
-        {projects.map((project) => (
-          <ProjectCard key={project.title} {...project} />
-        ))}
-      </div>
+      {projects.map((project) => (
+        <ProjectCard key={project.title} {...project} />
+      ))}
     </Section>
   );
 }

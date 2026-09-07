@@ -24,6 +24,11 @@ function Navbar() {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
+              <a className="nav-link active" href="#projects">
+                Projects
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link active" href="#about">
                 About
               </a>
@@ -38,12 +43,6 @@ function Navbar() {
             <li className="nav-item">
               <a className="nav-link active" href="#stack">
                 Stack
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link active" href="#projects">
-                Projects
               </a>
             </li>
 

@@ -1,4 +1,4 @@
-import headerImage from "../../assets/images/Header_image.png";
+import headerImage from "../../assets/images/Header_image.webp";
 
 function Hero() {
   return (

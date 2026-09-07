@@ -15,10 +15,10 @@ function HomePage() {
       <Navbar />
 
       <main>
+        <Projects />
         <About />
         <Education />
         <TechStack />
-        <Projects />
         <Contact />
       </main>
 

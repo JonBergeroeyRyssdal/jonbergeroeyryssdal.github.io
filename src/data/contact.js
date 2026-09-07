@@ -1,4 +1,4 @@
-import emailIcon from "../assets/images/Email.png";
+import emailIcon from "../assets/images/Email.webp";
 
 const contactLinks = [
   {

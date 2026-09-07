@@ -1,12 +1,13 @@
 import ecommerceImg from "../assets/images/E-commerce.png";
 import dashboardImg from "../assets/images/Admin_dashboard.png";
-import waitingRoomImg from "../assets/images/Waiting_room.png";
+import waitingRoomImg from "../assets/images/waiting_room.png";
 import doctorsAppointmentImg from "../assets/images/Doctors_appointment.png";
 
 const projects = [
   {
     slug: "e-commerce-platform",
     title: "E-commerce Platform",
+    summary: "An online store with authentication, product management and order handling.",
     image: ecommerceImg,
     alt: "E-commerce Project",
     delay: 100,
@@ -41,6 +42,7 @@ const projects = [
   {
     slug: "reception-dashboard",
     title: "Reception Dashboard",
+    summary: "A reception dashboard for tracking deliveries and managing staff availability.",
     image: dashboardImg,
     alt: "Reception Management Dashboard",
     delay: 200,
@@ -65,6 +67,7 @@ const projects = [
   {
     slug: "js-waiting-room",
     title: "JS Waiting Room",
+    summary: "A digital waiting room connecting patients and reception through an API gateway.",
     image: waitingRoomImg,
     alt: "JS Waiting Room Project",
     delay: 300,
@@ -93,10 +96,6 @@ const projects = [
         url: "https://server-3khr.onrender.com",
       },
       {
-        label: "Receptionist",
-        url: "DIN_RECEPTIONIST_URL",
-      },
-      {
         label: "Patient",
         url: "https://patient-xw8x.onrender.com",
       },
@@ -110,6 +109,7 @@ const projects = [
   {
     slug: "doctors-appointment-booking",
     title: "Doctors Appointment Booking",
+    summary: "A full-stack booking system with patient appointments, doctor availability and an admin dashboard.",
     image: doctorsAppointmentImg,
     alt: "Doctors Appointment Booking Project",
     delay: 400,
@@ -152,4 +152,6 @@ const projects = [
   },
 ];
 
-export default projects;
+const featuredProject = projects.find((project) => project.slug === "doctors-appointment-booking");
+
+export default [featuredProject, ...projects.filter((project) => project !== featuredProject)];
