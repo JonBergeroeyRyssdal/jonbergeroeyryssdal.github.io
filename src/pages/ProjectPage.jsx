@@ -65,9 +65,9 @@ function ProjectPage() {
           </div>
         </Section>
         <Section id="features" title="Features">
-          <div className="col-12 text-center">
-            <ul className="list-unstyled mb-0">
-              {project.features.map((feature) => <li key={feature} className="mb-2">{feature}</li>)}
+          <div className="col-12">
+            <ul className="project-features">
+              {project.features.map((feature) => <li key={feature}>{feature}</li>)}
             </ul>
           </div>
         </Section>
