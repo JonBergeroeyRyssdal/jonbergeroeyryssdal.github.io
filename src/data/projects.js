@@ -1,6 +1,6 @@
 import ecommerceImg from "../assets/images/E-commerce.png";
 import dashboardImg from "../assets/images/Admin_dashboard.png";
-import waitingRoomImg from "../assets/images/waiting_room.png";
+import waitingRoomImg from "../assets/images/Waiting_room.png";
 import doctorsAppointmentImg from "../assets/images/Doctors_appointment.png";
 
 const projects = [
