@@ -2,8 +2,29 @@ import ecommerceImg from "../assets/images/E-commerce.png";
 import dashboardImg from "../assets/images/Admin_dashboard.png";
 import waitingRoomImg from "../assets/images/Waiting_room.png";
 import doctorsAppointmentImg from "../assets/images/Doctors_appointment.png";
+import ryssdalWebSolutionsImg from "../assets/images/ryssdal-web-solutions.svg";
 
 const projects = [
+  {
+    slug: "ryssdal-web-solutions",
+    title: "Ryssdal Web Solutions",
+    summary: "A multilingual website for my own business, presenting web development services for small businesses.",
+    image: ryssdalWebSolutionsImg,
+    alt: "Ryssdal Web Solutions — Websites for small businesses",
+    delay: 100,
+    description:
+      "The business website for Ryssdal Web Solutions, my sole proprietorship based in Moss, Norway. I built it to introduce my services to small businesses looking for a new website, improvements to an existing site, or practical digital solutions. Built with Next.js, React, TypeScript and Bootstrap, the site presents my services and background with clear contact links and content in Norwegian, English and Spanish.",
+    technologies: ["Next.js", "React", "TypeScript", "Bootstrap"],
+    features: [
+      "Norwegian, English and Spanish language versions",
+      "Responsive layout for mobile and desktop",
+      "Presentation of website development, digital solutions and ongoing support",
+      "Developer introduction and direct contact links",
+      "Language-specific metadata and a multilingual sitemap",
+    ],
+    frontend: "https://ryssdal-web-solutions.onrender.com",
+    frontendLabel: "Visit website",
+  },
   {
     slug: "e-commerce-platform",
     title: "E-commerce Platform",

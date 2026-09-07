@@ -30,7 +30,7 @@ function ProjectPage() {
           <div className="col-12 text-center">
             <div className="d-flex flex-wrap justify-content-center gap-3">
               {project.frontend && (
-                <a href={project.frontend} target="_blank" rel="noopener noreferrer" className="btn btn-dark">Live demo</a>
+                <a href={project.frontend} target="_blank" rel="noopener noreferrer" className="btn btn-dark">{project.frontendLabel || "Live demo"}</a>
               )}
               {project.github && (
                 <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">GitHub</a>
