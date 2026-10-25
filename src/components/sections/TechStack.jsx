@@ -9,17 +9,19 @@ function TechStack() {
     <Section
       id="stack"
       title="Tech Stack"
-      subtitle="I have worked with the following technologies:"
+      subtitle="The tools I use to build reliable web applications."
     >
-      <div className="row row-cols-2 row-cols-md-4 g-4 justify-content-center mt-4">
-        {featuredTech.map((tech, index) => (
-          <TechCard
-            key={tech.name}
-            name={tech.name}
-            icon={tech.icon}
-            delay={index * 100}
-          />
-        ))}
+      <div className="col-12">
+        <div className="row row-cols-2 row-cols-md-4 g-3 justify-content-center">
+          {featuredTech.map((tech, index) => (
+            <TechCard
+              key={tech.name}
+              name={tech.name}
+              icon={tech.icon}
+              delay={index * 100}
+            />
+          ))}
+        </div>
       </div>
     </Section>
   );

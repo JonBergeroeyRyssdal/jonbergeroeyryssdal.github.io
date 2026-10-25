@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+    <nav aria-label="Main navigation" className="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
       <div className="container">
         <a className="navbar-brand" href="/">
           Jon Bergerøy Ryssdal
@@ -24,30 +24,30 @@ function Navbar() {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" href="#projects">
+              <a className="nav-link" href="/#projects">
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#about">
+              <a className="nav-link" href="/#about">
                 About
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#education">
+              <a className="nav-link" href="/#education">
                 Education
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#stack">
+              <a className="nav-link" href="/#stack">
                 Stack
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#contact">
+              <a className="nav-link" href="/#contact">
                 Contact
               </a>
             </li>

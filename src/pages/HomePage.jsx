@@ -11,8 +11,8 @@ import Contact from "../components/sections/Contact";
 function HomePage() {
   return (
     <>
-      <Hero />
       <Navbar />
+      <Hero />
 
       <main>
         <Projects />

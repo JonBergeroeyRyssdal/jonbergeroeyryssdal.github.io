@@ -6,7 +6,7 @@ const defaultIcon =
 function TechCard({ name, icon, delay = 0 }) {
   return (
     <div className="col">
-      <Card aos="zoom-in" delay={delay} className="text-center">
+      <Card aos="zoom-in" delay={delay} className="tech-card text-center">
         <img
           src={icon || defaultIcon}
           alt={name}

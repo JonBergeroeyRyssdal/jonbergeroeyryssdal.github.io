@@ -4,7 +4,7 @@ import contactLinks from "../../data/contact";
 
 function Contact() {
   return (
-    <Section id="contact" title="Contact">
+    <Section id="contact" title="Let’s connect" subtitle="Have a project in mind? I’d love to hear from you.">
       {contactLinks.map((item) => (
         <div
           key={item.name}

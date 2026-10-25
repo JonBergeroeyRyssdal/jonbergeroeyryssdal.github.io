@@ -6,8 +6,8 @@ function Projects() {
   return (
     <Section
       id="projects"
-      title="Projects"
-      subtitle="A showcase of some of my projects."
+      title="Selected projects"
+      subtitle="From databases and APIs to the interfaces that bring them to life."
     >
       {projects.map((project) => (
         <ProjectCard key={project.title} {...project} />

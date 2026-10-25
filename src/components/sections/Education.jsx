@@ -7,7 +7,7 @@ function Education() {
     <Section
       id="education"
       title="Education & CV"
-      subtitle="My formal education and CV:"
+      subtitle="My background, qualifications and experience."
     >
       <div className="col-12 col-sm-6 col-lg-4 d-flex">
         <a

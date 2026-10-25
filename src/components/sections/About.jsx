@@ -8,7 +8,7 @@ function About() {
   return (
     <Section id="about" title="About">
       <div className="col-12 col-lg-6 d-flex">
-        <Card className="text-center p-3">
+        <Card className="portrait-card">
           <img
             src={portrett}
             loading="lazy"
@@ -19,7 +19,7 @@ function About() {
       </div>
 
       <div className="col-12 col-lg-6 d-flex">
-        <Card aos="fade-up-right">
+        <Card aos="fade-up-right" className="about-copy">
           <div className="card-body d-flex flex-column justify-content-center">
             {about.paragraphs.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>

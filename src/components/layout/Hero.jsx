@@ -9,9 +9,10 @@ function Hero() {
       }}
     >
       <div className="container text-center">
+        <p className="hero-eyebrow">Moss, Norway / Web development</p>
         <h1 className="display-3 fw-bold mb-3">Jon Bergerøy Ryssdal</h1>
 
-        <h2 className="fw-light mb-4">Backend Developer</h2>
+        <p className="hero-role mb-4">Backend Developer</p>
 
         <p className="lead mx-auto mb-4" style={{ maxWidth: "700px" }}>
           Backend-focused web developer building full-stack applications and
@@ -31,6 +32,9 @@ function Hero() {
           >
             Download CV
           </a>
+        </div>
+        <div className="hero-stack" aria-label="Core technologies">
+          <span>C# & .NET</span><span>Node.js</span><span>React</span><span>SQL</span>
         </div>
       </div>
     </header>

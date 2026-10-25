@@ -10,9 +10,9 @@ function Section({
   const TitleTag = titleAs;
 
   return (
-    <section id={id} className={`py-5 ${className}`}>
+    <section id={id} className={`portfolio-section ${className}`}>
       <div className="container">
-        <div className="text-center">
+        <div className="section-heading text-center">
           <TitleTag className={titleAs === "h1" ? "display-5" : ""}>
             {title}
           </TitleTag>
