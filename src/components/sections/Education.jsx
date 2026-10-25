@@ -35,7 +35,7 @@ function Education() {
 
       <div className="col-12 col-sm-6 col-lg-4 d-flex">
         <a
-          href="/files/CV 2026 English.pdf.pdf"
+          href="/files/CV 2026 English.pdf"
           download
           className="text-decoration-none w-100"
         >
