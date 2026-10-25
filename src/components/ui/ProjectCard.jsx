@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import Card from "../layout/Card";
 
-function ProjectCard({ image, title, alt, slug, delay, technologies, summary }) {
+function ProjectCard({ image, title, alt, slug, delay, technologies, summary, className = "col-12 col-md-6 d-flex" }) {
   return (
-    <div className="col-12 col-md-6 d-flex">
+    <div className={className}>
       <Link to={`/projects/${slug}`} className="text-decoration-none w-100">
         <Card className="project-card" delay={delay}>
-          <div className="h-100 d-flex flex-column">
-            <div className="position-relative">
+          <div className="project-card-content h-100 d-flex flex-column">
+            <div className="project-card-image position-relative">
               <img src={image} alt={alt} loading="lazy" className="card-img-top project-img" />
             </div>
             <div className="card-body d-flex flex-column flex-grow-1">
